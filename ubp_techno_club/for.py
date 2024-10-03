@@ -7,7 +7,7 @@ tapi sepertinya kode yang dia buat tidak berjalan sesuai harapan.
 bantu naila untuk menyelesaikan masalahnya.
 """
 i = 0
-while True:
+while (True):
     print(i)
     
     i += 1
