@@ -13,8 +13,5 @@ Output:
 [1, 2, 3, 4, 5]
 """
 angka = [4, 2, 1, 3, 5]
-
-# Mengurutkan daftar angka menggunakan sorted()
-angka_terurut = sorted(angka)
-
-print(angka_terurut)
+angka.sort()
+print(angka)
