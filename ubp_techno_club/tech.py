@@ -12,11 +12,7 @@ Input:
 Output:
 C C
 """
-
 tech = ['T', 'E', 'C', 'H', 'N', 'O', 'C', 'L', 'U', 'B']
-
-# Menggunakan list comprehension untuk mendapatkan semua elemen 'C'
-hasil = [x for x in tech if x == 'C']
-
-# Mencetak elemen 'C' yang ditemukan
-print(' '.join(hasil))
+for letter in tech:
+    if letter == 'C':
+        print(letter, end=' ')
